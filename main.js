@@ -5,7 +5,8 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
 // 1. Inicialización de Escena, Cámara y Renderizador
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x222222);
+// Cambia la línea de scene.background por esta:
+scene.background = new THREE.Color(0xe0e0e0); // Gris claro suave
 
 const camera = new THREE.PerspectiveCamera(
   45,
